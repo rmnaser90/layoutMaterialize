@@ -1,0 +1,67 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #ffb703;
+}
+
+.headerContainer {
+    background-color: #ffb703;
+    height: 10vh;
+}
+
+.header {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.header .large {
+    font-size: 300%;
+}
+
+.header .title {
+    font-size: 150%;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header .registerBtn {
+    text-decoration: none;
+}
+
+.user-view {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.subContainer {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.sideNavContainer {
+    background-color: #126782;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .sideNavContainer {
+        display: none;
+    }
+    .subContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+}
